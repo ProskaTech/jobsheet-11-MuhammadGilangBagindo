@@ -1,5 +1,10 @@
-## Object-oriented Programming (Lab Work) Template Guides
-1. Silakan anda upload file java hasil praktikum anda menggunakan NetBeans atau IDE/text editor lainnya dengan mengupload button ADD FILE
-2. Upload juga screenshot hasil latihan dan tugas anda dalam format .JPG atau .JPEG atau .PNG
-3. Setiap file java anda diharuskan untuk memiliki identitas anda dengan menggunakan komentar dengan format berikut "Created by NIM_Nama Lengkap" pada bagian paling atas setiap code anda. contoh: // Created by 1203232_Randi Proska Sandra
-4. Silakan anda edit file README.md ini dengan identitas anda juga serta berikan penjelasan terkait source code yang anda upload. Catatan: Jangan ubah nama file README.md
+## Created by 21343030_Muhammad Gilang Bagindo
+
+## Penjelasan Source Code
+Pada pertemuan kali ini membahas mengenai kelas inheritance, overriding dan kelas enkapsulasi.
+
+Inheritance merupakan proses pewarisan data dan method dari suatu class yang telah ada kepada suatu class baru. Class yang mewariskan disebut dengan superclass/parent class/base class, sedangkan class yang mewarisi (class yang baru) disebut dengan subclass/child class/derived class. Akan tetapi subclass tidak dapat mewarisi anggota private dari superclass-nya. Dengan inheritance, class yang baru (subclass) akan mirip dengan class yang lama (superclass), namun memiliki karakteristik yang baru. Dalam Java, subclass hanya bisa memiliki satu superclass (single inheritance) sedangkan superclass bisa memiliki satu subclass atau lebih. Untuk menerapkan inheritance, digunakan statement “extends”.
+
+Overriding adalah menulis kembali method sama persis, mulai dari nama method dan isinya dan mengimplementasi kembali di subclassnya. Overriding dipakai ketika menggunakan method yang sama tapi berbeda implementasinya atau dengan kata lain, overriding adalah suatu keadaan dimana method pada subclass menolak method pada parent class-nya.
+
+Encapsulation (Enkapsulasi) adalah pembungkus, pembungkus disini dimaksudkan untuk menjaga suatu proses program agar tidak dapat diakses secara sembarangan oleh program lain. Dalam Java, dasar enkapsulasi adalah class. Anda membuat suatu class yang menyatakan bahwa variable atau method sebuah class tidak dapat diakses oleh class lain dengan menjadikan class tersebut private, atau menjadikan class tersebut protected yaitu hanya bisa diakses oleh turunannya, atau menjadikan class tersebut public yaitu bisa diakses oleh sembarang class.
